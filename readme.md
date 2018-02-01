@@ -8,6 +8,7 @@ Press a button, a random number will be generated and displayed until the button
 
 ##### Inputs
 Should be relatively obvious if you read the source:
+
 | Die Size | Pin |
 | -------- | --- |
 | d4       | 2   |
