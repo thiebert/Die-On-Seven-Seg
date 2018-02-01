@@ -8,13 +8,15 @@ Press a button, a random number will be generated and displayed until the button
 
 ##### Inputs
 Should be relatively obvious if you read the source:
-d4 button on pin 2
-d6 button on pin 3
-d8 button on pin 4
-d10 button on pin 5
-d12 button on pin 6
-d20 button on pin 7
-d100 button on pin 8
+| Die Size | Pin |
+| -------- | --- |
+| d4       | 2   |
+| d6       | 3   |
+| d8       | 4   |
+| d10      | 5   |
+| d12      | 6   |
+| d20      | 7   |
+| d100     | 8   |
 
 ##### Outputs
 Seven Segment LCD display:
