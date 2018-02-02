@@ -32,5 +32,7 @@ Seven Segment LCD display:
 | -     | 10                | 9           |
 
 ### Todo:
-short graphical "rolling" animation
-"clear" function
+
+* short graphical "rolling" animation
+
+* "clear" function
