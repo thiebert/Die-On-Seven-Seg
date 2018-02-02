@@ -7,22 +7,29 @@ Press a button, a random number will be generated and displayed until the button
 ### Using:
 
 ##### Inputs
+
 Should be relatively obvious if you read the source:
 
 | Die Size | Pin |
 | -------- | --- |
-| d4       | 2   |
-| d6       | 3   |
-| d8       | 4   |
-| d10      | 5   |
-| d12      | 6   |
-| d20      | 7   |
-| d100     | 8   |
+| d6       | 2   |
 
 ##### Outputs
+
 Seven Segment LCD display:
-ones digit pins from 13-19
-tens digit pins from 20-26
+
+| digit | Seven Segment Pin | Arduino Pin | 
+| ----- | ----------------- | ----------- |
+| ones  | -                 | -           |
+| -     | 1                 | 7           |
+| -     | 2                 | 6           |
+| -     | 3, 8              | GND         |
+| -     | 4                 | 5           |
+| -     | 5                 | -           |
+| -     | 6                 | 4           |
+| -     | 7                 | 3           |
+| -     | 9                 | 8           |
+| -     | 10                | 9           |
 
 ### Todo:
 short graphical "rolling" animation
